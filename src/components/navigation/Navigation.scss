@@ -1,0 +1,117 @@
+@use "../../styles/_mixins" as *;
+@use "../../styles/fonts" as *;
+
+.nav {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 100%;
+    padding-top: 1rem;
+
+    @include tablet {
+    }
+
+
+
+    &__logo {
+        width: 12rem;
+        height: 10rem;
+        background-repeat: no-repeat;
+        object-fit: cover;
+
+        @include tablet {
+            width: 14rem;
+            height: 12rem;
+        }
+    }
+
+    &__contact {
+        background-color: $green;
+        color: #fff;
+        border: 0;
+        border-radius: 360px;
+        padding: 1rem;
+        font-size: 1.2rem;
+        display: none;
+
+        @include tablet {
+            display: block;
+        }
+    }
+}
+
+.hamburger {
+    background-image: url("../../assets/icons/hamburger.png");
+    width: 3rem;
+    height: 3rem;
+    background-repeat: no-repeat;
+    background-size: contain;
+    position: relative;
+    cursor: pointer;
+    margin-bottom: 4rem;
+    
+    @include tablet {
+        display: none;
+    }
+}
+
+.list {
+    line-height: 2;
+    position: absolute;
+    display: none;
+    flex-direction: column;
+    list-style-type: none;
+    width: 100%;
+    top: 20%;
+    height: 80%;
+    transition: all 0.5s ease;
+
+
+    @include tablet {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        position: relative;
+        width: 50%;
+        margin: 5rem 0;
+        background-color: $pink;
+    }
+
+    &__item {
+        border-bottom: 1px solid $green;
+        padding: 0 1rem 1rem; 
+
+        @include tablet {
+            border: none;
+            padding: 0;
+        }
+    }
+
+    &__link {
+        text-decoration: none;
+        font-size: 1.2rem;
+        color: $green;
+        font-weight: 400;
+       
+        
+
+        @include tablet {
+            
+        }
+
+
+    }
+    
+}
+
+.list.open {
+    display: block;
+    background-color: $pink;
+
+    @include tablet {
+        flex-direction: row;
+
+    }
+    
+}

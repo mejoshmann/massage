@@ -1,0 +1,22 @@
+@use "./styles/mixins" as *;
+@use "./styles/fonts" as *;
+
+
+.App {
+  padding: 0 1rem;
+  font-family: $raleway-font;
+  
+
+  @include tablet {
+    padding: 0 10%;
+    
+  }
+
+  @include desktop {
+    padding: 0 14%;
+  }
+
+
+}
+
+
