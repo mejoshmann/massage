@@ -1,0 +1,42 @@
+@use "../../styles/mixins" as *;
+
+.footer {
+    border-top: 1px solid $green;
+
+    &__container {
+        padding: 1rem 0;
+        display: flex;
+        flex-direction: column;
+
+        @include tablet {
+            flex-direction: row;
+
+        }
+    }
+
+    &__links {
+        display: flex;
+        flex-direction: column;
+        gap: .5rem;
+        padding: 1rem 0;
+
+        &--heading {
+            color: $green;
+        }
+
+        &--link {
+            text-decoration: none;
+            color: $green;
+        }
+    }
+
+    &__info {
+        display: flex;
+        flex-direction: column;
+        gap: .3rem;
+    }
+
+    &__copyright {
+        padding: 1rem 0;
+    }
+}

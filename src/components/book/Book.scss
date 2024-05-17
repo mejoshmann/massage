@@ -1,10 +1,10 @@
 @use "../../styles/mixins" as *;
 
 .book {
-    padding: 1.5rem;
+    padding: 1rem;
     background-color: $green;
     color: #fff;
-    font-size: 1.2rem;
+    font-size: 0.8rem;
     font-weight: 500;
     border-radius: 360px;
     border: 0;
@@ -13,11 +13,12 @@
     align-items: center;
     gap: 1rem;
     position: fixed;
-    right: 5rem;
-    bottom: 5rem;
-    
+    right: 4%;
+    bottom: 2%;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;    
     &:hover {
         border: 1px solid #fff;
+        background: darken($color: #000000, $amount: 10%)
     }
     
     @include tablet {
@@ -29,8 +30,8 @@
 
     &__icon {
         background-image: url("../../assets/icons/booking.png");
-        width: 1.5rem;
-        height: 1.5rem;
+        width: 1.2rem;
+        height: 1.2rem;
         background-repeat: no-repeat;
         background-size: cover;
     }

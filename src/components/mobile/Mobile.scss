@@ -1,0 +1,39 @@
+@use "../../styles/mixins" as *;
+
+.mobile {
+    padding: 1rem 0;
+    color: $green;
+
+    &__heading {
+        text-align: center;
+    }
+
+    &__cards {
+        padding: 1rem 0;
+    }
+
+    &__card {
+        border: 1px solid $green;
+        padding: 1rem;
+        display: flex;
+        flex-direction: column;
+        gap: .6rem;
+        
+        &--icon {
+            width: 2rem; 
+            height: 2rem;
+            
+        }
+
+        &--heading {
+
+        }
+
+        &--copy {
+            color: #000;
+        }
+
+    }
+
+
+}

@@ -7,7 +7,7 @@
     align-items: center;
     justify-content: space-between;
     max-width: 100%;
-    padding-top: 1rem;
+    padding-top: .5rem;
 
     @include tablet {
     }
@@ -43,13 +43,14 @@
 
 .hamburger {
     background-image: url("../../assets/icons/hamburger.png");
-    width: 3rem;
-    height: 3rem;
+    width: 2rem;
+    height: 2rem;
     background-repeat: no-repeat;
     background-size: contain;
-    position: relative;
+    position: fixed;
     cursor: pointer;
     margin-bottom: 4rem;
+    right: 5%;
     
     @include tablet {
         display: none;

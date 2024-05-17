@@ -1,0 +1,63 @@
+@use "../../styles/mixins" as *;
+
+.pack {
+    text-align: center;
+    color: $green;
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+
+  &__sub-heading {
+    font-size: 1rem;
+    font-weight: 500;
+  }
+
+  &__heading {
+
+  }
+
+  &__cards {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+
+    &--card {
+    }
+
+    &--mins {
+        background-color: #191919;
+        color: #fff;
+        font-weight: 500;
+        border-top-left-radius: 15px;
+        border-top-right-radius: 15px;
+        padding: 2rem;
+    }
+
+    &--container {
+        background-color: #fff;
+        border-bottom-left-radius: 15px;
+        border-bottom-right-radius: 15px;
+        color: #000;
+        padding: 1.2rem;
+    }
+
+    &--price {
+        color: #191919;
+    }
+
+    &--copy {
+        padding: 1rem 0;
+        border-bottom: 1px solid #191919;
+        
+    }
+
+    &--book {
+        background-color: $green;
+        color: #fff;
+        padding: 1rem;
+        border: 0;
+        margin-top: 1rem;
+        border-radius: 4px;
+    }
+  }
+}
