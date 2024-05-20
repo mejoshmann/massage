@@ -74,7 +74,7 @@ function Navigation() {
         </li>
 
       </ul>
-      <button className="nav__contact">Book Appointment</button>
+      <a href="#contact" className="nav__contact">Book Appointment</a>
 
     </nav>
   );

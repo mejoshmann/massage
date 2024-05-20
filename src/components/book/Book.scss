@@ -14,11 +14,12 @@
     gap: 1rem;
     position: fixed;
     right: 4%;
-    bottom: 2%;
+    bottom: 5.5%;
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;    
+    text-decoration: none;
     &:hover {
         border: 1px solid #fff;
-        background: darken($color: #000000, $amount: 10%)
+        background: darken($color: $green, $amount: 10%)
     }
     
     @include tablet {

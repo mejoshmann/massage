@@ -11,7 +11,8 @@ function Mobile() {
         <h2 className="mobile__heading">Why Choose Mobile Massage?</h2>
 
         <div className="mobile__cards">
-          <div className="mobile__card">
+
+          <div className="mobile__card mobile__card--left">
             <img src={car} alt="Car Icon" className="mobile__card--icon" />
             <h3 className="mobile__card--heading">Skip the Commute!</h3>
             <p className="mobile__card--copy">
@@ -19,6 +20,7 @@ function Mobile() {
               home, saving you time and avoiding the hassle of traffic!
             </p>
           </div>
+
           <div className="mobile__card">
             <img src={lotus} alt="Lotus leaf Icon" className="mobile__card--icon" />
             <h3 className="mobile__card--heading">Your Oasis At Home</h3>
@@ -27,6 +29,7 @@ function Mobile() {
               setting, where you can fully relax and unwind
             </p>
           </div>
+
           <div className="mobile__card">
             <img src={time} alt="Clock Icon" className="mobile__card--icon" />
             <h3 className="mobile__card--heading">Your Time, Your Comfort</h3>
@@ -36,6 +39,7 @@ function Mobile() {
               time that fits your schedule and lifestyle.
             </p>
           </div>
+          
           <div className="mobile__card">
             <img src={health} alt="Health Icon" className="mobile__card--icon" />
             <h3 className="mobile__card--heading">Health Benefits</h3>

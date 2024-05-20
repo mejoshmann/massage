@@ -4,7 +4,7 @@ import massage from "../../assets/images/back.webp";
 function Home() {
   return (
     <>
-      <div className="home">
+      <div id="home" className="home">
         <div className="home__copy">
           <h2 className="home__copy--sub-heading">MOBILE MASSAGE IN SURREY</h2>
           <h1 className="home__copy--heading">Luxury Massage Experience</h1>
@@ -14,10 +14,10 @@ function Home() {
           </p>
           <p className="home__copy--copy">
             Indulge in the ultimate relaxation and therapeutic benefits of
-            professional massage therapy, all in the comfort of your own home.
+            professional massage therapy, all in the comfort of your own home, or at our Surrey location
           </p>
           <p className="home__copy--copy">
-            <a href="#" className="home__copy--link">
+            <a href="#contact" className="home__copy--link">
               Contact us
             </a>{" "}
             to experience the ease and convenience of mobile massage. Whether

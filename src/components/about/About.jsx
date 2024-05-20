@@ -7,8 +7,8 @@ function About() {
         <h2 className="about__heading">About Relax Massage Surrey</h2>
         <p className="about__copy">
           At Relax Massage Surrey, we specialize in providing top-quality
-          massage services tailored to your needs, all in the comfort of your
-          own home.
+          massage services tailored to your needs, in the comfort of your
+          own home or at our Surrey location.
         </p>
         <p className="about__copy">
           Our team of experienced masseuses are trained in a variety of Asian

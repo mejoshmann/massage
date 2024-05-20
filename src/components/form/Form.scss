@@ -1,0 +1,54 @@
+@use "../../styles/mixins" as *;
+
+.form {
+    display: flex;
+    flex-direction: column;
+    // gap: .5rem;
+    width: 100%;
+    padding: 1rem 0;
+
+    @include tablet {
+        gap: .5rem;
+    }
+
+    &__heading {
+        color: $green;
+    }
+
+    &__input {
+        background-color: $pink;
+    }
+
+    &__buttons {
+        display: flex;
+        flex-direction: column;
+        gap: .5rem;
+        padding: .2rem 0;
+    }
+
+    &__button {
+        background-color: $green;
+        border: 0;
+        color: #fff;
+        text-decoration: none;
+        padding: .5rem;
+        font-weight: 500;
+        border-radius: 4px;
+
+        @include tablet {
+            width: 40%;
+        }
+    }
+
+
+
+}
+
+input,
+textarea {
+    background-color: $pink;
+    border: 0;
+    border-bottom: 1px solid $green;
+    padding: .5rem 0;
+    width: 100%;
+}

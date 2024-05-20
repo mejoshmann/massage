@@ -10,6 +10,7 @@
     padding-top: .5rem;
 
     @include tablet {
+
     }
 
 
@@ -21,8 +22,8 @@
         object-fit: cover;
 
         @include tablet {
-            width: 14rem;
-            height: 12rem;
+            width: 12rem;
+            height: 10rem;
         }
     }
 
@@ -34,9 +35,12 @@
         padding: 1rem;
         font-size: 1.2rem;
         display: none;
+        text-decoration: none;
 
-        @include tablet {
+        @include desktop {
             display: block;
+            font-size: .8rem;
+            padding: 0.5rem;
         }
     }
 }
@@ -77,6 +81,10 @@
         width: 50%;
         margin: 5rem 0;
         background-color: $pink;
+    }
+
+    @include desktop {
+        width: 40%;
     }
 
     &__item {
