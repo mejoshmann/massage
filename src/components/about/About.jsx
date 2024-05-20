@@ -30,7 +30,7 @@ function About() {
           services.
         </p>
         <p className="about__copy">
-          <a href="#">Book</a> your appointment today and discover the difference that{" "}
+          <a href="#contact">Book</a> your appointment today and discover the difference that{" "}
           <b>Relax Massage Surrey</b> can make in your well-being
         </p>
       </div>
