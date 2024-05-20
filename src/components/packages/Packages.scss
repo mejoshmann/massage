@@ -27,6 +27,10 @@
       gap: .5rem;
     }
 
+    @include desktop {
+      gap: 2rem;
+    }
+
     &--card {
       margin: 0 1rem;
       display: flex;
