@@ -7,7 +7,6 @@ function Form() {
     name: "",
     phoneNumber: "",
     email: "",
-    businessName: "",
     message: "",
   });
 
@@ -104,7 +103,7 @@ function Form() {
           </button>{" "}
           <button className="form__button">
             {" "}
-            <a className="form__button" href="tel:+16#">
+            <a className="form__button" href="tel:+167786083401">
               GIVE US A CALL
             </a>
           </button>

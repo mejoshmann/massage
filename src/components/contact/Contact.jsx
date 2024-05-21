@@ -20,7 +20,7 @@ function Contact() {
               <div className="email icon"></div>relaxmassagebc@gmail.com
             </p>
             <p className="contact__container--copy">
-              <span className="phone icon"></span>604 NUMBER
+              <span className="phone icon"></span>7786083401
             </p>
             <p className="contact__container--copy">
               <span className="clock icon"></span>Mon - Fri 9am-6pm
