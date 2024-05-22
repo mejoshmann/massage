@@ -34,12 +34,14 @@ function Form() {
         (result) => {
           console.log(result.text);
           setFormSubmitted(true);
+
         },
         (error) => {
           console.log(error.text);
         }
       );
   };
+
 
   if (formSubmitted) {
     return (
