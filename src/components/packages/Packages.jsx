@@ -14,9 +14,9 @@ function Packages() {
               <p className="pack__cards--copy">Targeted relief for specific areas of tension.</p>
               <p className="pack__cards--copy">Introductory massage experience, understand its benefits.</p>
               <p className="pack__cards--copy">No hidden fees, no transport costs.</p>
-              <button className="pack__cards--book">
+              <a href="#contact" className="pack__cards--book">
                 Book A 60 Minute Massage
-              </button>
+              </a>
             </div>
           </div>
 
@@ -27,9 +27,9 @@ function Packages() {
               <p className="pack__cards--copy">Enhanced focus on relaxation techniques.</p>
               <p className="pack__cards--copy">More comprehensive coverage for multiple tension areas.</p>
               <p className="pack__cards--copy">No hidden fees, no transport costs.</p>
-              <button className="pack__cards--book">
+              <a href="#contact" className="pack__cards--book">
                 Book A 90 Minute Massage
-              </button>
+              </a>
             </div>
           </div>
 
@@ -40,9 +40,9 @@ function Packages() {
               <p className="pack__cards--copy">Deeper relaxation of both the body and mind.</p>
               <p className="pack__cards--copy">Longer lasting benefits from pain and tension.</p>
               <p className="pack__cards--copy">No hidden fees, no transport costs.</p>
-              <button className="pack__cards--book">
+              <a href="#contact" className="pack__cards--book">
                 Book A 2 Hour Massage
-              </button>
+              </a>
             </div>
           </div>
         </div>
